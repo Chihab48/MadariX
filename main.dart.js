@@ -106939,7 +106939,7 @@ A.Qh.prototype={
 gR5(){return u.M}}
 A.WC.prototype={
 J(a){var s=null
-return new A.yP($.beP(),"MadariX",A.mp(s,s,"Inter",B.i,s),B.DT,B.adv,B.adu,!1,s)}}
+return new A.yP($.beP(),"Madarix",A.mp(s,s,"Inter",B.i,s),B.DT,B.adv,B.adu,!1,s)}}
 A.aYt.prototype={
 $2(a,b){var s,r,q=A.a_B().gjj()
 if(B.c.p(q,".madarix.store")&&q!=="madarix.store"&&!B.c.bh(q,"www.")){s=B.b.gaa(q.split("."))
