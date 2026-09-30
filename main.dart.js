@@ -113566,108 +113566,111 @@ o=m?n:s.h(0,"delivery_bureau")
 if(o==null)o=!0
 return p||o},
 qS(a){return this.azX(a)},
-azX(d4){var s=0,r=A.w(t.H),q,p=2,o=[],n=[],m=this,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8,c9,d0,d1,d2,d3
-var $async$qS=A.r(function(d5,d6){if(d5===1){o.push(d6)
+azX(d6){var s=0,r=A.w(t.H),q,p=2,o=[],n=[],m=this,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8,c9,d0,d1,d2,d3,d4,d5
+var $async$qS=A.r(function(d7,d8){if(d7===1){o.push(d8)
 s=p}for(;;)switch(s){case 0:if(!m.d.gR().m5()){s=1
 break}m.C(new A.aRS(m))
 p=4
-b4=m.r
-b5=b4==null?null:b4.h(0,"sections")
-if(b5==null){b4=t.z
-b5=A.q(b4,b4)}l=b5
-b4=m.r
-b4=b4==null?null:b4.h(0,"form_fields")
-if(b4==null)b4=[]
-k=A.cD(b4,!0,t.P)
-b4=t.d
-j=b4.a(J.aF(l,"shipping"))
-b6=j
-b7=b6==null?null:J.aF(b6,"free_shipping")
-i=b7==null?!1:b7
+b5=m.r
+b6=b5==null?null:b5.h(0,"sections")
+if(b6==null){b5=t.z
+b6=A.q(b5,b5)}l=b6
+b5=m.r
+b5=b5==null?null:b5.h(0,"form_fields")
+if(b5==null)b5=[]
+k=A.cD(b5,!0,t.P)
+b5=t.d
+j=b5.a(J.aF(l,"shipping"))
+b7=j
+b8=b7==null?null:J.aF(b7,"free_shipping")
+i=b8==null?!1:b8
 h=""
 g=""
 f=""
 e=0
-b6=t.N
-b8=t.z
-d=A.q(b6,b8)
-for(b9=k,c0=b9.length,c1=m.ax,c2=0;c2<b9.length;b9.length===c0||(0,A.N)(b9),++c2){c=b9[c2]
-c3=J.aF(c,"title")
-b=c3==null?"":c3
-c4=J.aF(c,"type")
-a=c4==null?"text":c4
-c5=c1.h(0,b)
-c6=c5==null?null:B.c.bc(c5.a.a)
-a0=c6==null?"":c6
+b7=t.N
+b9=t.z
+d=A.q(b7,b9)
+for(c0=k,c1=c0.length,c2=m.ax,c3=0;c3<c0.length;c0.length===c1||(0,A.N)(c0),++c3){c=c0[c3]
+c4=J.aF(c,"title")
+b=c4==null?"":c4
+c5=J.aF(c,"type")
+a=c5==null?"text":c5
+c6=c2.h(0,b)
+c7=c6==null?null:B.c.bc(c6.a.a)
+a0=c7==null?"":c7
 if(J.c(a,"wilaya"))continue
 else if(J.c(a,"phone")||J.ja(b,"\u0647\u0627\u062a\u0641")||J.ja(b,"Phone"))g=a0
 else if(J.ja(b,"\u0627\u0633\u0645")||J.ja(b,"Name")||J.ja(b,"\u0627\u0644\u0627\u0633\u0645"))h=a0
 else if(J.c(a,"address")||J.ja(b,"\u0639\u0646\u0648\u0627\u0646")||J.ja(b,"Address"))f=a0
-else if(J.c(a,"quantity")||J.c(a,"number")||J.ja(b,"\u0627\u0644\u0643\u0645\u064a\u0629")||J.ja(b,"Quantity")){if(J.bj(a0)!==0){c7=A.qq(a0,null)
-e=c7==null?1:c7}}else if(J.bj(a0)!==0)J.dl(d,b,a0)}a1=b4.a(J.aF(l,"colors"))
-b9=a1
-b9=b9==null?null:J.aF(b9,"selected")
-c0=t.kc
-c0.a(b9)
-a2=b9==null?[]:b9
+else if(J.c(a,"quantity")||J.c(a,"number")||J.ja(b,"\u0627\u0644\u0643\u0645\u064a\u0629")||J.ja(b,"Quantity")){if(J.bj(a0)!==0){c8=A.qq(a0,null)
+e=c8==null?1:c8}}else if(J.bj(a0)!==0)J.dl(d,b,a0)}a1=b5.a(J.aF(l,"colors"))
+c0=a1
+c0=c0==null?null:J.aF(c0,"selected")
+c1=t.kc
+c1.a(c0)
+a2=c0==null?[]:c0
 if(J.da(a2)&&m.as<J.bj(a2))J.dl(d,"color",J.aF(a2,m.as))
-a3=b4.a(J.aF(l,"sizes"))
-b9=a3
-c8=c0.a(b9==null?null:J.aF(b9,"selected"))
-a4=c8==null?[]:c8
-if(J.da(a4)&&m.at<J.bj(a4))J.dl(d,"size",J.aF(a4,m.at))
-a5=b4.a(J.aF(l,"pricing"))
-b4=a5
-c9=c0.a(b4==null?null:J.aF(b4,"bundles"))
-a6=c9==null?[]:c9
-if(J.da(a6)&&m.Q<J.bj(a6))J.dl(d,"bundle",J.aF(J.aF(a6,m.Q),"title"))
-a7="domicile"
-if(i)a7="free"
-else a7=m.ch
-a8=m.Ym()
-a9=d4+a8
-b0=null
+a3=b5.a(J.aF(l,"sizes"))
+c0=a3
+c9=c0==null?null:J.aF(c0,"enabled")
+a4=c9==null?!1:c9
+c0=a3
+d0=c1.a(c0==null?null:J.aF(c0,"selected"))
+a5=d0==null?[]:d0
+if(a4&&J.da(a5)&&m.at<J.bj(a5))J.dl(d,"size",J.aF(a5,m.at))
+a6=b5.a(J.aF(l,"pricing"))
+b5=a6
+d1=c1.a(b5==null?null:J.aF(b5,"bundles"))
+a7=d1==null?[]:d1
+if(J.da(a7)&&m.Q<J.bj(a7))J.dl(d,"bundle",J.aF(J.aF(a7,m.Q),"title"))
+a8="domicile"
+if(i)a8="free"
+else a8=m.ch
+a9=m.Ym()
+b0=d6+a9
+b1=null
 s=J.bj(g)!==0?7:8
 break
-case 7:b4=$.bZ()
-b9=b4.b
-b9===$&&A.a()
+case 7:b5=$.bZ()
+c0=b5.b
+c0===$&&A.a()
 s=9
-return A.o(b9.aH("customers").c5("id, trust_level, total_orders").bj("phone",g).fw(),$async$qS)
-case 9:b1=d6
-s=b1!=null?10:12
+return A.o(c0.aH("customers").c5("id, trust_level, total_orders").bj("phone",g).fw(),$async$qS)
+case 9:b2=d8
+s=b2!=null?10:12
 break
-case 10:b0=A.ba(b1.h(0,"id"))
+case 10:b1=A.ba(b2.h(0,"id"))
 s=13
-return A.o(b4.b.aH("customers").cj(A.T(["total_orders",B.d.d5(A.dp(b1.h(0,"total_orders")))+1,"updated_at",new A.cv(Date.now(),0,!1).a9T().o7()],b8,b8)).bj("id",b0),$async$qS)
+return A.o(b5.b.aH("customers").cj(A.T(["total_orders",B.d.d5(A.dp(b2.h(0,"total_orders")))+1,"updated_at",new A.cv(Date.now(),0,!1).a9T().o7()],b9,b9)).bj("id",b1),$async$qS)
 case 13:s=11
 break
 case 12:s=14
-return A.o(b4.b.aH("customers").dL(0,A.T(["phone",g,"trust_level","new","total_orders",1,"delivered_orders",0,"returned_orders",0,"cancelled_orders",0],b6,t.K)).c5("id").jD(0),$async$qS)
-case 14:b2=d6
-b0=A.ba(J.aF(b2,"id"))
-case 11:case 8:b4=$.bZ().b
-b4===$&&A.a()
-b4=b4.aH("orders")
-b9=m.r.h(0,"store_id")
-c0=m.r.h(0,"id")
-c1=m.r.h(0,"product_id")
-c5=b0
-d0=J.bj(h)!==0?h:"\u0632\u0628\u0648\u0646 \u0639\u0627\u0645"
-d1=m.ay
-if(d1==null)d1="\u063a\u064a\u0631 \u0645\u062d\u062f\u062f"
+return A.o(b5.b.aH("customers").dL(0,A.T(["phone",g,"trust_level","new","total_orders",1,"delivered_orders",0,"returned_orders",0,"cancelled_orders",0],b7,t.K)).c5("id").jD(0),$async$qS)
+case 14:b3=d8
+b1=A.ba(J.aF(b3,"id"))
+case 11:case 8:b5=$.bZ().b
+b5===$&&A.a()
+b5=b5.aH("orders")
+c0=m.r.h(0,"store_id")
+c1=m.r.h(0,"id")
+c2=m.r.h(0,"product_id")
+c6=b1
+d2=J.bj(h)!==0?h:"\u0632\u0628\u0648\u0646 \u0639\u0627\u0645"
+d3=m.ay
+if(d3==null)d3="\u063a\u064a\u0631 \u0645\u062d\u062f\u062f"
 s=15
-return A.o(b4.dL(0,A.T(["store_id",b9,"landing_page_id",c0,"product_id",c1,"customer_id",c5,"customer_name",d0,"wilaya_state",d1,"address",f,"total_price",a9,"quantity",e,"status","pending","type_livraison",a7,"custom_fields_data",d],b6,b8)),$async$qS)
-case 15:b4=m.c
-if(b4!=null)A.rH(!1,new A.aRT(m),b4,b8)
+return A.o(b5.dL(0,A.T(["store_id",c0,"landing_page_id",c1,"product_id",c2,"customer_id",c6,"customer_name",d2,"wilaya_state",d3,"address",f,"total_price",b0,"quantity",e,"status","pending","type_livraison",a8,"custom_fields_data",d],b7,b9)),$async$qS)
+case 15:b5=m.c
+if(b5!=null)A.rH(!1,new A.aRT(m),b5,b9)
 n.push(6)
 s=5
 break
 case 4:p=3
-d3=o.pop()
-b3=A.a5(d3)
-b4=m.c
-if(b4!=null)b4.T(t.q).f.bn(A.dy(null,null,null,B.aG,null,B.x,null,A.x("\u274c \u062d\u062f\u062b \u062e\u0637\u0623 \u0623\u062b\u0646\u0627\u0621 \u0625\u0631\u0633\u0627\u0644 \u0627\u0644\u0637\u0644\u0628: "+A.f(b3),null,null,null,null,null,null,null),null,B.a0,null,null,null,null,null,null,null,null,null,null))
+d5=o.pop()
+b4=A.a5(d5)
+b5=m.c
+if(b5!=null)b5.T(t.q).f.bn(A.dy(null,null,null,B.aG,null,B.x,null,A.x("\u274c \u062d\u062f\u062b \u062e\u0637\u0623 \u0623\u062b\u0646\u0627\u0621 \u0625\u0631\u0633\u0627\u0644 \u0627\u0644\u0637\u0644\u0628: "+A.f(b4),null,null,null,null,null,null,null),null,B.a0,null,null,null,null,null,null,null,null,null,null))
 n.push(6)
 s=5
 break
