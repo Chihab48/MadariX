@@ -113867,13 +113867,13 @@ b9="\ud83d\udce6 Office Pickup ("+A.f(b9==null?0:b9)+" DZD)"}b9=A.x(b9,c2,c2,c2,
 c0=c1.ch
 b8.push(A.auu(c1.x,B.af,!0,c0,new A.aSm(c1),b9,"post",t.N))}B.b.N(l,A.b([B.ab,A.R(c2,A.aa(b8,B.w,B.h,B.e),B.i,c2,c2,new A.W(B.av,c2,b7,k,c2,c2,B.n),c2,c2,c2,c2,B.aW,c2,c2,c2),B.ab],s))}k=A.D(12)
 b7=A.b3(B.ae,1)
-b8=A.b([A.a8(A.b([A.x(c1.y==="ar"?"\u0633\u0639\u0631 \u0627\u0644\u0645\u0646\u062a\u062c":"Prix du produit",c2,c2,c2,c2,B.Q7,c2,c2),A.x(B.d.ad(b3,0)+" \u062f.\u062c",c2,c2,c2,c2,B.hm,c2,B.q)],s),B.k,B.a4,B.e,0,c2,c2)],s)
+b8=A.b([A.a8(A.b([A.x(c1.y==="ar"?"\u0633\u0639\u0631 \u0627\u0644\u0645\u0646\u062a\u062c":"Prix du produit",c2,c2,c2,c2,B.Q7,c2,c2),A.x(" \u062f.\u062c "+B.d.ad(b3,0),c2,c2,c2,c2,B.hm,c2,B.q)],s),B.k,B.a4,B.e,0,c2,c2)],s)
 if(e){b9=c1.y==="ar"
 c0=A.x(b9?"\u0633\u0639\u0631 \u0627\u0644\u062a\u0648\u0635\u064a\u0644":"Frais de livraison",c2,c2,c2,c2,B.Q7,c2,c2)
 B.b.N(b8,A.b([B.ab,A.a8(A.b([c0,A.x(b9?"\ud83c\udf89 \u0645\u062c\u0627\u0646\u064a":"\ud83c\udf89 Gratuit",c2,c2,c2,c2,B.atB,c2,c2)],s),B.k,B.a4,B.e,0,c2,c2)],s))}b8.push(B.ab)
 b8.push(B.Z4)
 b8.push(B.ab)
-b8.push(A.a8(A.b([A.x(c1.y==="ar"?"\u0627\u0644\u0645\u062c\u0645\u0648\u0639 \u0627\u0644\u0625\u062c\u0645\u0627\u0644\u064a":"Total G\xe9n\xe9ral",c2,c2,c2,c2,B.e6,c2,c2),A.x(B.d.ad(b3,0)+" \u062f.\u062c",c2,c2,c2,c2,B.aub,c2,B.q)],s),B.k,B.a4,B.e,0,c2,c2))
+b8.push(A.a8(A.b([A.x(c1.y==="ar"?"\u0627\u0644\u0645\u062c\u0645\u0648\u0639 \u0627\u0644\u0625\u062c\u0645\u0627\u0644\u064a":"Total G\xe9n\xe9ral",c2,c2,c2,c2,B.e6,c2,c2),A.x(" \u062f.\u062c "+B.d.ad(b3,0),c2,c2,c2,c2,B.aub,c2,B.q)],s),B.k,B.a4,B.e,0,c2,c2))
 l.push(A.R(c2,A.aa(b8,B.k,B.h,B.e),B.i,c2,c2,new A.W(B.av,c2,b7,k,c2,c2,B.n),c2,c2,c2,c2,B.aG,c2,c2,c2))
 l.push(B.P)
 if(e){k=A.D(10)
