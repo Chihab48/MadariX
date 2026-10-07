@@ -109049,17 +109049,20 @@ return A.v($async$BV,r)},
 xW(a){return this.avE(a)},
 avE(a){var s=0,r=A.w(t.H),q=this,p,o
 var $async$xW=A.r(function(b,c){if(b===1)return A.t(c,r)
-for(;;)switch(s){case 0:o=A.cy("https://wa.me/"+A.dK("+213780097601","+","")+"?text="+A.ru(2,"\u0627\u0644\u0633\u0644\u0627\u0645 \u0639\u0644\u064a\u0643\u0645\u060c \u0623\u0648\u062f \u0627\u0644\u0627\u0633\u062a\u0641\u0633\u0627\u0631 \u0639\u0646 "+a,B.ak,!1),0,null)
+for(;;)switch(s){case 0:o=v.G
+o.fbq("track","InitiateCheckout")
+p=A.cy("https://wa.me/"+A.dK("+213780097601","+","")+"?text="+A.ru(2,"\u0627\u0644\u0633\u0644\u0627\u0645 \u0639\u0644\u064a\u0643\u0645\u060c \u0623\u0648\u062f \u0627\u0644\u0627\u0633\u062a\u0641\u0633\u0627\u0631 \u0639\u0646 "+a,B.ak,!1),0,null)
 s=5
-return A.o(A.PZ(o),$async$xW)
+return A.o(A.PZ(p),$async$xW)
 case 5:s=c?2:4
 break
-case 2:s=6
-return A.o(A.rE(o,B.yu),$async$xW)
+case 2:o.fbq("track","Contact")
+s=6
+return A.o(A.rE(p,B.yu),$async$xW)
 case 6:s=3
 break
-case 4:p=q.c
-if(p!=null)p.T(t.q).f.bn(B.apw)
+case 4:o=q.c
+if(o!=null)o.T(t.q).f.bn(B.apw)
 case 3:return A.u(null,r)}})
 return A.v($async$xW,r)},
 J(a){var s,r,q=this,p=null,o=q.e.length,n=o!==0?B.l.d8(o*360,400,1100):1100
