@@ -106074,7 +106074,9 @@ if(o!=null)k.n(0,"Authorization","Bearer "+A.f(o))
 o=A.w(l,l)
 n=c.f
 if(n!=null)o.N(0,n)
-m=A.ck(a,0,null)
+n=c.d
+if(n!=null){n.toString
+o.n(0,"redirect_to",n)}m=A.ck(a,0,null)
 l=A.cD(m.gfh(),l,t.z)
 l.N(0,o)
 s=3
@@ -106183,18 +106185,18 @@ this.a=a}}
 A.alZ.prototype={
 gnj(){var s=this.x
 return s===$?this.x=new A.Vo(this.w):s},
-wG(a,b,c){return this.ac9(a,b,c)},
-ac9(a,b,c){var s=0,r=A.v(t.W8),q,p=this,o,n,m,l,k,j,i
-var $async$wG=A.q(function(d,e){if(d===1)return A.r(e,r)
+wG(a,b,c,d){return this.ac9(a,b,c,d)},
+ac9(a,b,c,d){var s=0,r=A.v(t.W8),q,p=this,o,n,m,l,k,j,i
+var $async$wG=A.q(function(e,f){if(e===1)return A.r(f,r)
 for(;;)switch(s){case 0:s=3
 return A.o(p.Ye(),$async$wG)
-case 3:o=e
+case 3:o=f
 n=p.gnj()
 m=t.N
 l=A.S(["captcha_token",null],m,t.v)
 s=4
-return A.o(n.lg(p.f+"/signup",B.hf,A.pJ(A.S(["email",b,"password",c,"data",a,"gotrue_meta_security",l,"code_challenge",o,"code_challenge_method",o!=null?"s256":null],m,t.z),p.r,null,null,null,null)),$async$wG)
-case 4:k=e
+return A.o(n.lg(p.f+"/signup",B.hf,A.pJ(A.S(["email",b,"password",d,"data",a,"gotrue_meta_security",l,"code_challenge",o,"code_challenge_method",o!=null?"s256":null],m,t.z),p.r,null,null,null,c)),$async$wG)
+case 4:k=f
 j=A.aeH(k)
 i=j.a
 if(i!=null){p.oP(i)
@@ -108380,7 +108382,7 @@ g===$&&A.a()
 g=g.gbV()
 f=B.c.bc(m.y.a.a)
 s=7
-return A.o(g.wG(A.S(["store_name",l],t.N,t.z),k,f),$async$D3)
+return A.o(g.wG(A.S(["store_name",l],t.N,t.z),k,"https://validate-auth-ar.vercel.app/",f),$async$D3)
 case 7:j=b
 j.toString
 g=m.c
